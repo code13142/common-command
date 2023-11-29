@@ -5,7 +5,7 @@
 
 #### 1 创建用户并设置密码（“%” 表示可以外网连接，仅本地连接替换 “%” 为 localhost 即可）
 ```
-create user 'userename'@'%' identified by 'Jp2CyTKsVX';
+create user 'userename'@'%' identified by 'password';
 ```
 #### 2 分配权限
 ```
@@ -22,7 +22,7 @@ show grants for 'username'@'%';
 
 #### 修改密码
 ```
-ALTER USER 'username'@'%' IDENTIFIED BY 'Jp2CyTKsVX';
+ALTER USER 'username'@'%' IDENTIFIED BY 'new password';
 
 ```
 
