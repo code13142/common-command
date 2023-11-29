@@ -1,6 +1,6 @@
 ## PHP 集成相关说明
 
-### php+nginx+windows配置步骤
+### php+nginx+windows 环境配置步骤
 1. 【php官方下载地址】(https://www.php.net/downloads.php)
 2. 启动php-cgi服务（注意：安装包里如果没有php-cgi.exe 还需要自己单独下载安装）
 ```
