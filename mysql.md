@@ -3,7 +3,7 @@
 
 ### MYSQL8.0 数据库用户操作命令
 
-#### 1 创建用户并设置密码（“%” 表示可以外网连接，仅本地连接替换“%”为localhost即可）
+#### 1 创建用户并设置密码（“%” 表示可以外网连接，仅本地连接替换 “%” 为 localhost 即可）
 ```
 create user 'keycloak'@'%' identified by 'Jp2CyTKsVX';
 ```
