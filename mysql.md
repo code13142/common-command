@@ -25,3 +25,12 @@ show grants for 'keycloak'@'%';
 ALTER USER 'keycloak'@'%' IDENTIFIED BY 'Jp2CyTKsVX';
 
 ```
+
+
+
+### 数据库创建以及创建表语句
+
+#### 创建数据库
+```
+CREATE SCHEMA `keycloak_my` DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_bin ;
+```
